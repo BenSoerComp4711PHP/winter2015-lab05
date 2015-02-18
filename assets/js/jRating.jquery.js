@@ -14,7 +14,7 @@
 			/** String vars **/
 			bigStarsPath : '/assets/images/stars.png', // path of the icon stars.png
 			smallStarsPath : '/assets/images/small.png', // path of the icon small.png
-			phpPath : '/application/views/_components/jRating.php', // path of the php file jRating.php
+			phpPath : '../../application/views/_components/jrating.php', // path of the php file jrating.php
 			type : 'big', // can be set to 'small' or 'big'
 
 			/** Boolean vars **/
@@ -169,11 +169,6 @@
 							function(data) {
 								if(!data.error)
 								{
-									/** ONLY FOR THE DEMO, YOU CAN REMOVE THIS CODE **/
-										$('.serverResponse p').html(data.server);
-									/** END ONLY FOR THE DEMO **/
-
-
 									/** Here you can display an alert box,
 										or use the jNotify Plugin :) http://www.myqjqueryplugins.com/jNotify
 										exemple :	*/
@@ -181,11 +176,6 @@
 								}
 								else
 								{
-
-									/** ONLY FOR THE DEMO, YOU CAN REMOVE THIS CODE **/
-										$('.serverResponse p').html(data.server);
-									/** END ONLY FOR THE DEMO **/
-
 									/** Here you can display an alert box,
 										or use the jNotify Plugin :) http://www.myqjqueryplugins.com/jNotify
 										exemple :	*/

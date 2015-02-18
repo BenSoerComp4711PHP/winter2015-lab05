@@ -6,9 +6,3 @@
         <div class="hollywood" data-average="{average}" data-id="{id}"></div>
     </div>
 </div>
-<script>
-    $('.{field}').jRating({
-        maxRate: 5, // highest rating
-        phpPath: '/viewer/rate' // target for the AJAX call
-    })
-</script>
